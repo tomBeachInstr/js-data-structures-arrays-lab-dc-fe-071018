@@ -17,5 +17,5 @@ function destructivelyRemoveLastDriver() {
 }
 
 function appendDriver(name) {
-  allDays.splice(2, 0, name);
+  let newArray = drivers.splice(2, 0, name);
 }
