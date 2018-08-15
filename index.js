@@ -13,5 +13,5 @@ function destructivelyRemoveLastDriver() {
   drivers.pop()
 }
 function appendDriver(name) {
-  let newArray = [...drivers, name];
+  [...drivers, name];
 }
