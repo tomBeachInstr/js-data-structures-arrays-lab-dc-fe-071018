@@ -15,3 +15,7 @@ function destructivelyRemoveFirstDriver() {
 function destructivelyRemoveLastDriver() {
   drivers.pop()
 }
+
+function appendDriver(name) {
+  allDays.splice(2, 0, name);
+}
